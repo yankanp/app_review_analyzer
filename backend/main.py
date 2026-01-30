@@ -10,8 +10,8 @@ import shutil
 import pandas as pd
 from datetime import datetime
 
-from .scraper import AppScraper
-from .analyzer import ReviewAnalyzer
+from scraper import AppScraper
+from analyzer import ReviewAnalyzer
 
 app = FastAPI()
 
