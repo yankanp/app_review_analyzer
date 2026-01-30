@@ -1,0 +1,10 @@
+
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+google-play-scraper>=1.2.4
+requests>=2.31.0
+openai>=1.0.0
+python-multipart>=0.0.6
+textblob>=0.17.1
