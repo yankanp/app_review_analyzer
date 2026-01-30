@@ -10,7 +10,7 @@ import {
   HandThumbUpIcon, XMarkIcon, MagnifyingGlassIcon, ChevronRightIcon, CheckCircleIcon
 } from '@heroicons/react/24/outline'
 
-const API_URL = 'http://127.0.0.1:8000/api'
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api'
 const COLORS = {
   positive: '#34d399', // Emerald 400
   neutral: '#94a3b8',  // Slate 400
